@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("Tools/DrumsBG.jpg");
+    color:white;
+    text-shadow: 2px 2px 3px #671e03;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+div>h1{
+    margin: 40px auto;
+    text-align: center;
+}
+
+#parent{
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    background: rgba(255,255,255,0.1);
+    margin-top: 150px;
+}
+
+.key{
+    width: 80px;
+    height: 80px;
+    background: rgba(50,0,0,0.5);
+    display: inline-grid;
+    border: 2px solid #714010;
+    margin: 10px;
+    transition: all 0.15s ease-in;
+}
+.playing{
+    box-shadow: 0px 10px 20px gold;
+    background: rgba(255, 0, 0, 0.5);
+    border: 2px inset orange;
+    transform: scale(0.95);
+}
+
+
+div>kbd{
+  font-size: 20pt;
+}
+
+.sound{
+  top: 10px;
+  position: relative;
+  font-size: 10pt;
+}
